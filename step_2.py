@@ -1,12 +1,12 @@
-what = input ('Что делаем? (+,-):')
+what = input('Что делаем? (+,-):')
 if what == '+':
-    a = input('Первое число:')
-    b = input('Второе число:')
+    a = float(input('Первое число:'))
+    b = float(input('Второе число:'))
     c = a + b
     print('Результат='+str(c))
 elif what == '-':
-    a = input('Первое число:')
-    b = input('Второе число:')
+    a = float(input('Первое число:'))
+    b = float(input('Второе число:'))
     c = a - b
     print('Результат='+str(c))
 else:
